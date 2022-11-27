@@ -40,4 +40,4 @@ def sub():
  return render_template("output.html",op=op,result=result,num1=n1,num2=n2)
 
 if __name__ == "__main__":
- app.run(debug=True,port=5001)
+ app.run(debug=False,port=5001)
